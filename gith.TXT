@@ -1,0 +1,23 @@
+Algoritmo "n5"
+
+var
+nome,sexo : caractere
+idade, salario : real
+
+inicio
+escreval ("Digite o nome ")
+leia (nome)
+escreval ("Digite a idade ")
+leia (idade)
+escreval ("Digite o salário ")
+leia (salario)
+escreval ("Digite o sexo ")
+leia (sexo)
+se sexo = "masculino" entao
+   escreval (nome, idade)
+   fimse
+se sexo = "feminino"  entao
+   escreval (nome, salario)
+   fimse
+
+Fimalgoritmo
